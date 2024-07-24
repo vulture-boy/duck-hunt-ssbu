@@ -1,5 +1,5 @@
 # duck-hunt-ssbu
-Repository of information on Duck Hunt in Super Smash Bros. Ultimate, presented for web.
+Repository of information on the playable character Duck Hunt in Super Smash Bros. Ultimate, presented for web.
 
 Created and Edited by vulture-boy.
 
