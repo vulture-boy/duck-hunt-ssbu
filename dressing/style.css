@@ -1,7 +1,7 @@
 body {
     font-family: 'urbanist', sans-serif;
-    color: #262625;
-    background-color: #f0eeeb;
+    color: #e6e6de;
+    background-color: #6c6760;
 }
 
 footer {
@@ -13,7 +13,7 @@ footer {
 }
 
 hr {
-    color: #262625;
+    color: #e6e6de;
 }
 
 ul {
@@ -31,12 +31,6 @@ ul {
     height: 20rem;
 }
 
-#blurBackground {
-    position:fixed;
-    z-index:-2;
-    pointer-events:none;
-}
-
 #menuBar {
     font-family: 'Major Mono Display', monospace;
 }
@@ -48,9 +42,9 @@ ul {
 }
 
 ::selection {
-    background: #ffb7b7; /* WebKit/Blink Browsers */
+    background: #a6d0d6; /* WebKit/Blink Browsers */
   }
 
 a:link, a:visited {
-    color: #736d68;
+    color: #cacab6;
 }

@@ -51,7 +51,7 @@ main {
 .btn-toggle:hover,
 .btn-toggle:focus {
   color: rgba(0, 0, 0, .85);
-  background-color: #eeeeee;
+  background-color: #303233;
   box-shadow: none;
 }
 
