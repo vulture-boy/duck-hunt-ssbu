@@ -6,8 +6,10 @@ body {
 
 footer {
     font-family: sans-serif;
-    text-align: right;
-    position:fixed;
+    text-align: center;
+    font-size: xx-small;
+    background-color: #3c3a39;
+    position: fixed;
     bottom:0;
     right:0
 }
