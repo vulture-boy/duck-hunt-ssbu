@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <script src="/dressing/htmlInclude.js"></script>
+    <div w3-include-html="/common/header.html"></div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/dressing/style.css">
+    <link href="/dressing/sidebars.css" rel="stylesheet">
+
+    <title>duck hunt library - trick shot: knockback storage and can parry</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!--Body-->
+      <div class="row">
+
+        <!--Menu-->
+        <div class="col-sm-3">
+          <div w3-include-html="/menubar.html"></div>
+        </div>
+
+        <div class="col-sm-3">
+          
+        </div>
+
+        <!--Header Content-->
+        <div class="col-sm-6">
+          <hr>
+          <img src="/duckhunt-sand.png" >
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <!--Content-->
+        <div class="col-sm-12">
+          <h1>Trick Shot: Knockback Storage and Can Parry</h1>
+          <hr>
+          <h2>External Resources</h2>
+          <p>
+           <a href="https://youtu.be/WC0MJWxbLfQ?si=74R1ZSlmxuMuft9T">Knockback Storage Setups - Pyro-Is-Magic</a>
+          </p>
+          <hr>
+          <h2>Summary</h2>
+          <p>
+            Knockback storage is a unique property of Duck Hunt's can where the amount of knockback from an attack is stored until the can is hit again.
+            <br><br>The property is triggered if the can is hit at the same time as a 'ping', the crosshair projectile created either from activating Trick Shot or from one of Duck Hunt's Smash Attacks. 
+            <br><br>Rather than being affected by the stored attack's usual knockback, the can ignores the knockback effect and follows its current trajectory, or the connecting hit trajectory of Duck Hunt's smash attacks.
+            <br><br>After knockback is stored in the can, it will not be reset until it is either hit, pocketed or destroyed.
+            <br><br>The property of 'ignoring' the initial hit's knockback is sometimes called a Can Parry and can be used to absorb the impact of attacks from you or your opponent (not to be confused with parrying the can).
+          </p>
+          <hr>
+          <h2>Priming the Can</h2>
+          <p>
+            You can 'prime' the can with attacks by inputting an attack and pressing Special the same frame it is hit. Once it is primed, you can use any attack, including Jab 1, to activate the knockback.
+            <br>
+            Common Use Cases:<br>
+            <ul>
+                <li>Forward Smash 3 - Primes can with a fast, forward-sending knockback. Because it relies on a smash attack, it tends to be risky due to the amount of endlag. Occasionally useful as a mixup when the opponent is far away or has a very horizontal recovery. Handy for opponents with long disjoints or projectiles as the move will send in the opposite direction of their attack if approaching from the front.</li>
+                <li>Forward Smash 1 & 2 - Because they link into Forward Smash 3, the storage effect is minimal (if any), but the nature of the can being 'carried' along the path of the smash attack can disincentivize aerial punishes, provided the opponent cannot get past the trajectory.</li>
+                <li>Down Smash 1 & 3 - (TBA)</li>
+                <li>Down Smash 2 - (TBA)</li>
+                <li>Up Smash 1 - (TBA)</li>
+                <li>Up Smash 2 - (TBA)</li>
+                <li>Up Smash 3 - (TBA)</li>
+                <li>Jab 1 - Useful if you don't want the can to move on the next hit. Great for activating knockback due to its low frame cost.</li>
+                <li>Rapid Jab - Moves the can out of being 'stuck' in the rapid jab a bit.</li>
+                <li>Rapid Jab Finisher - (TBA)</li>
+                <li>Forward Tilt - (TBA)</li>
+                <li>Forward Tilt (Down Angled) - (TBA)</li>
+                <li>Forward Tilt (Up Angled) - (TBA)</li>
+                <li>Nair - (TBA)</li>
+                <li>Up Air 1 - (TBA)</li>
+                <li>Up Air 2 - Very difficult to prime on this hit but has a very sharp downward angle.</li>
+                <li>Up Air 3 - Sends upwards. Better to use Up Tilt for storing unless you are already trying to juggle your opponent.</li>
+                <li>(more moves tba)</li>
+            </ul>
+            <br>
+            Niche Use Cases:<br>
+            <ul>
+                <li>Forward Smash 1 & 2 - Because they link into Forward Smash 3, the storage effect is minimal (if any), but the nature of the can being 'carried' along the path of the smash attack can disincentivize aerial punishes, provided the opponent cannot get past the trajectory.</li>
+                <li>Jab 2 - No angle, use if you whiffed Jab 1 or use Jab 3 instead.</li>
+                <li>Jab 3 - Approx 60 degreen angle, but low impact. Not much different than just pinging the can twice normally.</li>
+                <li>Up Smash 1 - (TBA)</li>
+                <li>Up Smash 2 - (TBA)</li>
+                <li>Rapid Jab - Moves the can out of being 'stuck' in the rapid jab a bit. No angle.</li>
+                <li>Rapid Jab Finisher - Generally too much lead-up to the attack for a deliberate use case, but sends at a ~60 degree angle.</li>
+                <li>Get-Up Attacks - Very prone position; the storage could be useful to keep the can nearby instead of being sent (or if you're lucky, activate) if you find yourself accidentally in this position. Probably a simliar angle to FTilt?</li>
+                <li>Ledge Attacks - Generally you want to use the can to cover a larger area and punish opponents at ledge here rather than use knockback storage. Probably would be a good idea to use can storage if they want to use reflector from a distance to punish you using this as a habit. Probably a similar angle to FTilt?</li>
+                <li>(more moves tba)</li>
+            </ul>
+          </p>
+          <hr>
+          <h2>Opponent Counterplay</h2>
+          <p>
+            If the can doesn't 'move' upon being hit by you or the opponent Duck Hunt's attack, chances are that it has been affected by the knockback storage property. 
+            <br><br>The above reference list covers the effects that Duck Hunt's attacks have on the attack, but generally speaking if you are familiar with the knockback angles and intensity of you and your oppoents attacks, you should be able to predict where the can will be sent on following attacks. Knowing the precise angle for storage is a large scope concept but having situational awareness of the phenomenon should help you avoid most situations.
+            <br><br>Bear in mind that other properties of Can still apply, including the direction that it will ping on being attacked and the ability for Duck Hunt to ping the can on frame 1 when it is under their control.
+            <br><br>The best time to abuse knockback storage against Duck Hunt is in the niche situation where it has been primed you can displace it without being in the knockback trajectory angle or being hit by a ping, such as with a disjointed attack or if a Clay Pigeon is present (since Duck Hunt cannot ping the can at this time).
+            <br><br>The Knockback Storage of the can does not have a significant effect on gameplay until it is launched with an activating attack, so it should only be able to be triggered remotely from Duck Hunt via their other projectiles (probably Wild Gunman) or your own attacks.
+            <br><br>The technique is somewhat advanced; beginner Duck Hunts will probably trigger or use this property by complete accident or prime it with a smash attack that ultimately puts them in a lot of endlag. Use this opportunity to gain stage control if possible or abuse this property against them where applicable.
+          </p>
+          <hr>
+          <h2>Recommended VODs</h2>
+          <p>
+            None yet, suggest some in the Discord!
+          </p>
+          <hr>
+          <h2>Combos</h2>
+          <p>
+            Specific combos involving Knockback Storage tend to be improvisational due to the infrequent opportunities to meaningfully prepare the prerequisite conditions.
+            If you need to send the can at a particular angle for a potential string that involves hitting the opponent after an initial attack or throw, Knockback Storage can be useful to reduce the number of frames or endlag required to move the can at specific angles.
+            Conversely, a primed can may be sent at an inconvenient angle, since it will be locked to a fixed angle until it is hit.
+          </p>
+          <hr>
+          <h2>Patch Changes</h2>
+          <p>
+            Prior to Patch 11.0.0, it was possible to trigger Trick Shot at the same time as one of Duck Hunt's Smash Attack to effectively double its damage among other strange behaviours; you can read more about it in the Glitches articles on 'Pingas' and 'Slowdown Glitch'.
+          </p>
+          <hr> 
+          <h2>Outstanding Questions</h2>
+          <p>
+            <ul>
+                <li>How do reflectors affect storing and triggering knockback?</li>
+                <li>More information on all of Duck Hunt's attacks as they affect the can.</li>
+            </ul>
+
+            (Character-specific particulars should be addressed in their relevant matchup pages)
+          </p>
+          <hr>
+          <h3>Contributing Authors</h3>
+          <p>
+            Vultures
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+  <!--Footer-->
+
+    <div w3-include-html="/common/footer.html"></div>
+    
+  </html>
+
+      <script>
+    includeHTML();
+    </script>
