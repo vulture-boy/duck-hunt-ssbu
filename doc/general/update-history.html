@@ -1,0 +1,228 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <script src="/duck-hunt-ssbu/dressing/htmlInclude.js"></script>
+    <div w3-include-html="/duck-hunt-ssbu/common/header.html"></div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/duck-hunt-ssbu/dressing/style.css">
+    <link href="/duck-hunt-ssbu/dressing/sidebars.css" rel="stylesheet">
+
+    <title>duck hunt library - update history</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!--Body-->
+      <div class="row">
+
+        <!--Menu-->
+        <div class="col-sm-3">
+          <div w3-include-html="/duck-hunt-ssbu/common/menubar.html"></div>
+        </div>
+
+        <div class="col-sm-3">
+          
+        </div>
+
+        <!--Header Content-->
+        <div class="col-sm-6">
+          <hr>
+          <img src="/duck-hunt-ssbu/duckhunt-sand.png" >
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <!--Content-->
+        <div class="col-sm-12">
+          <h1>Update History</h1>
+          <hr>
+          <h2>Overview</h2>
+          <p>
+          This page details changes to Duck Hunt over Super Smash Bros Ultimate's update history.
+          This document redacts information that does not directly affect Duck Hunt or their gameplay environment since universal documents already exist. Unknown 'gameplay fixes' are also not included.
+          If an update isn't listed, you can assume that the update does not affect Duck Hunt.
+          Information has been pulled from <a href="https://www.ssbwiki.com/List_of_updates_(SSBU)">SSBWiki</a> and <a href="https://www.nintendo.com/en-gb/Support/Nintendo-Switch/Game-Updates/Super-Smash-Bros-Ultimate-Update-History-1549104.html" target="_blank">Nintendo's Official Update History</a>.
+          </p>
+          <hr>
+          <h2>Last Affected</h2>
+
+          This section lists the last version in which specific moves were affected by update changes.
+          If a move is unlisted, it can be assumed to not have changed directly during the lifetime of Smash Ultimate.
+
+            <ul>
+                <li>UNIVERSAL - 13.0.1 (last gameplay fix), 9.0.2 (affecting Duck Hunt)</li>
+                <li>TRAINING MODE - 12.0.0</li>
+                <li>ATTACKS - 3.0.0 (specials), 7.0.0 (normals), 10.1.0 (smashes), 11.0.0 (glitchless)</li>
+                <li>SHIELDING - 9.0.0</li>
+                <li>DODGE - 5.0.0</li>
+                <li>MOVEMENT - 3.1.0</li>
+                <li>SHIELD SIZE - 7.0.0</li>
+                <li>RAPID JAB - 7.0.0</li>
+                <li>UP AIR - 3.1.0</li>
+                <li>NEUTRAL SPECIAL - 3.0.0</li>
+                <li>SIDE SPECIAL - 3.0.0</li>
+                <li>DOWN SPECIAL - 3.0.0, 9.0.2 (glitchless)</li>
+                <li>SIDE SMASH - 10.1.0</li>
+                <li>SMASH ATTACK DUPLICATION - 11.0.0</li>
+            </ul>
+          <hr>
+          <h2>Update Log - Accurate to 13.0.3</h2>
+          <ul>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/12.0.0_changelog" target="_blank">
+                12.0.0 - 29 Jun 2021</a>
+                <ul>
+                    <li>TRAINING MODE - Damage counter fixed for cetain attacks.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/11.0.0_changelog#Duck_Hunt" target="_blank">
+                11.0.0 - 4 Mar 2021</a>
+                <ul>
+                    <li>SMASH ATTACKS - A bug that allowed the reticles on Duck Hunt's smash attacks to activate twice ('Pingas') was removed from x1 playspeed gameplay.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/10.1.0_changelog#Duck_Hunt" target="_blank">
+                10.1.0 - 22 Dec 2020</a>
+                <ul>
+                    <li>SIDE SMASH - The first two hits have lower hitlag (1.0x (both) -> 0.75x (hit 1)/0.5x (hit 2)).</li>
+                    <li>SIDE SMASH - The second hit sends at a lower angle (45° → 30°) and has lower set knockback (70 → 60).</li>
+                    (Both ultimately result in the Side Smash hitting more reliably)
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/9.0.2_changelog#Duck_Hunt" target="_blank">
+                9.0.2 - 11 Nov 2020</a>
+                <ul>
+                    <li>DOWN SPECIAL - Fixed an issue where Duck Hunt's momentum after using Wild Gunman in the air was different from what was intended.</li>
+                    <li>STAGES - Fixed an issue where sometimes fighters would pass through landscapes when they were launched on some stages.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/9.0.0_changelog" target="_blank">
+                9.0.0 - 13 Oct 2020</a>
+                <ul>
+                    <li>SHIELD (UNIVERSAL) - Perfect shielding's 3-frame advantage increase against projectiles (which was added in 3.0.0) properly applies outside of Training mode.</li>
+                    <li>SHIELD (UNIVERSAL) - The shieldstun received if two attacks hit a shield on the same frame has been fixed. Previously, the game would combine the highest damage and the highest shieldstun multiplier of the various attacks to calculate the final shieldstun. Now, the game calculates the shieldstun of each attack individually and takes only the highest result.</li>            
+                    <li>STAGES - All pre-existing stages have been reworked to be compatible with Steve's Mine and Create Block mechanics.</li>
+                </ul>
+            </li>
+            <li>8.1.0 - 4 Aug 2020
+                <ul>
+                    <li>STAGES - Small Battlefield added.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/7.0.0_changelog#Duck_Hunt" target="_blank">
+                7.0.0 - 28 Jan 2020</a>
+                <ul>
+                    <li>SHIELD - Overall shield size has been increased.</li>
+                    <li>RAPID JAB - Neutral infinite's hits inflict 2 additional frames of hitstun, preventing opponents from shielding before the finisher comes out.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/5.0.0_changelog" target="_blank">
+                5.0.0 - 5 Sep 2019</a>
+                <ul>
+                    <li>DODGE (UNIVERSAL) - Using directional air dodges and continuously holding the shield/grab button no longer automatically buffers a roll or spot dodge on landing, making it slightly harder to reposition with a roll after recovering with a directional air dodge, but it also prevents the user from unintentionally staling subsequent dodges.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/4.0.0_changelog" target="_blank">
+                4.0.0 - 31 Jul 2019</a>
+                <ul>
+                    <li>TRAINING - The combo counter in Training mode no longer has extra frames of leniency after the opponent's hitstun ends, increasing its accuracy.</li>
+                    <li>UNIVERSAL - The Final Smash Meter now resets if the Final Smash is not used within 20 seconds after it is obtained outside of Spirits mode.</li>
+                    <li>UNIVERSAL/GLITCH - The spring activated Z-axis glitch has been fixed.</li>
+                    <li>UNIVERSAL/GLITCH - Players can no longer take damage during a Stamina Sudden Death countdown preventing characters to disappear from the stage.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/3.1.0_changelog#Duck_Hunt" target="_blank">
+                3.1.0 - 31 May 2019</a>
+                <ul>
+                    <li>UP AIR - Up aerial's first hit connects more reliably into the second (angle: 80&#176 -> 95&#176; knockback: 25 fixed/80 scaling -> 50/100).</li>
+                    <li>MOVEMENT (UNIVERSAL) - Increased the minimum amount of time between wall jumps made in the same direction (130 frames -> 180).</li>
+                    <li>UNIVERSAL - <a href="https://www.youtube.com/watch?v=Jwa562kwhOk" target="_blank">Held item attacks have been removed.</a></li>
+                    <li>UNIVERSAL/GLITCH - Fixed an issue where characters appeared on screen in a way that caused them to take damage before the countdown ends.</li>
+                    <li>UNIVERSAL/GLITCH - Fixed an issue that caused an already-defeated character to reappear in a non-interactable state after getting blast KOed on screen with Death's Scythe and using a specific final smash at the exact location of their KO.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/3.0.0_changelog#Duck_Hunt" target="_blank">
+                3.0.0 - 18 Apr 2019</a>
+                <ul>
+                    <li>NEUTRAL SPECIAL - Trick Shot deals less shield damage (0 -> -0.9/-1/-5 (reticle/impact/explosion).</li>
+                    <li>SIDE SPECIAL - Clay Shooting deals less shield damage (0 -> -1 (clay impact), -0.9 (reticle), -1.3/-1.5 (clay break, hits 1-2/3)).</li>
+                    <li>DOWN SPECIAL - The shots from Wild Gunman will no longer sometimes go through opponents.</li>
+                    <li>SHIELD (UNIVERSAL) - Perfect shields will no longer activate multiple times when the shield button is released once. This reduces its downtime, but makes multihit attacks harder to perfect shield, as each hit needs to be manually perfect shielded.</li>
+                    <li>DODGE (UNIVERSAL) - The value for "dodges refresh one level after X time of the last-used dodge's interruptibility" is now 1 second (from 0.5 seconds), so dodging can only be done once a second without penalty rather than twice.</li>
+                    <li>TRAINING - In Training Mode, perfect shielding against a projectile grants 3 more frames of advantage. This has been properly applied to normal gameplay in 9.0.0.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/2.0.0_changelog#Duck_Hunt" target="_blank">
+                2.0.0 - 30 Jan 2019</a>
+                <ul>
+                    <li>NEUTRAL SPECIAL - Trick Shot has less endlag (FAF 46 -> 42).</li>
+                    <li>SIDE SPECIAL -  Clay Shooting has more endlag (FAF 61 -> 64).</li>
+                    <li>SIDE SPECIAL -  Clay Shooting causes less hitlag (1x -> 0.5x/0.2x (hit 1/2-3)).</li>
+                    <li>GLITCH - Fixed a game crash where Wild Gunman and the Mii Swordfighter's special moves were used at the same time.</li>
+                    <li>GLITCH - Corrupt save data occurs if Duck Hunt plays Century Smash.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/1.2.0_changelog#Duck_Hunt" target="_blank">
+                1.2.0 - 14 Dec 2018</a>
+                <ul>
+                    <li>[Reportedly Duck Hunt adjustments, but unknown what has changed.]</li>
+                    <li>ITEMS (UNIVERSAL) - It is no longer possible to z-drop items out of hitstun.</li>
+                    <li>UNIVERSAL - The x0.85 shorthop aerial damage multiplier when doing shorthop -> land -> fullhop -> aerial has been removed.</li>
+                </ul>
+            </li>
+            <li><a href="https://www.ssbwiki.com/List_of_updates_(SSBU)/1.1.0_changelog" target="_blank">
+                1.1.0 - 07 Dec 2018</a>
+                <ul>
+                    <li>UNIVERSAL - The AI for various characters has been adjusted.</li>
+                    <li>UNIVERSAL/GLITCH - Fixed a glitch causing throws in Training Mode to gradually reduce knockback taken by the victim if the Fixed Damage option was turned on, even to the point of them taking no knockback.</li>
+                </ul>
+            </li>
+            <li>1.0.0 - 07 Dec 2018
+                <ul>
+                    <li>UNIVERSAL - Initial Release [changes from Smash 4?]</li>
+                </ul>
+            </li>
+            <li>Pre-Release
+                <ul>
+                    <li>(no data)</li>
+                </ul>
+            </li>
+            
+          </ul>
+          </p>
+          <hr>
+          <h2>Outstanding Questions</h2>
+          <p>
+            <ul>
+                <li>How did Duck Hunt develop during Smash 4?</li>
+                <li>Are there any interesting observations of Duck Hunt during Beta and Pre-Release releases and demonstrations?</li>
+                <li>Are there any undocumented patch changes that are insider information within the Duck Hunt Discord?</li>
+            </ul>
+          </p>
+          <hr>
+          <h3>Contributions</h3>
+          <p>
+            Written and compiled by Vultures<br>
+            Not peer reviewed<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+  <!--Footer-->
+
+    <div w3-include-html="/duck-hunt-ssbu/common/footer.html"></div>
+    
+  </html>
+
+      <script>
+    includeHTML();
+    </script>
